@@ -334,6 +334,9 @@ a img:hover {
 #gnavi ul li a:hover {
 	background-position: center bottom;
 }
+#gnavi ul #gnavi00 a {
+	background-image: url(../images/common/btn_gnavi00.gif);	
+}
 
 #gnavi ul #gnavi01 a {
 	background-image: url(../images/common/btn_gnavi01.gif);	
