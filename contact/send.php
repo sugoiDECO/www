@@ -149,19 +149,23 @@ $(window).load(function() {
     <div class="widget">
       <h3>キャンプ一覧</h3>
       <ul>
-        <li><a href="#">浦安キャンプ</a></li>
+        <li><a href="../project/project_a01.html">浦安キャンプ</a></li>
       </ul>
     </div>
     <div class="widget">
       <h3>DECOムービー</h3>
       <ul>
-        <li><a href="#">2014年</a></li>
+        <li><a href="../movie/index.html">2014年</a></li>
       </ul>
     </div>
     <div class="widget">
       <h3>メンバー</h3>
       <ul>
-        <li><a href="#">田口空一郎</a></li>
+        <li><a href="../member/member01.html">田口空一郎</a></li>
+        <li><a href="../member/member02.html">古橋大地</a></li>
+        <li><a href="../member/member03.html">田村賢哉</a></li>
+        <li><a href="../member/member04.html">増山茂</a></li>
+        <li><a href="../member/member05.html">千島 康稔</a></li>
       </ul>
     </div>
   </div>
@@ -179,8 +183,8 @@ $(window).load(function() {
     <li><a href="../movie/index.html">DECOムービー</a></li>
     <li><a href="../principle/index.html#cooperation">構成団体</a></li>
     <li><a href="../contact/index.html">お問い合わせ</a></li>
-    <li><a href="../sitemap/index.html">サイトマップ</a></li>
-    <li><a href="../privacy/index.html">プライバシーポリシー</a></li>
+    <!-- <li><a href="../sitemap/index.html">サイトマップ</a></li>
+    <li><a href="../privacy/index.html">プライバシーポリシー</a></li> -->
   </ul>
   <p>Copyright © DECO All Rights Reserved.</p>
 </div>
