@@ -3,7 +3,7 @@ require_once("twitteroauth/twitteroauth.php");
 require_once("Cache/Lite.php");
 
 define("CACHE_NAME", "twitter2");
-define("SEARCH_KEYWORD", "#すごい災害訓練");
+define("SEARCH_KEYWORD", "#すごい災害対応訓練");
 define("IMAGE_ONCE", false);
 
 function getTweets($parameters) {
