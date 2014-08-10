@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+/* トップページ
+----------------------------------------------------------*/
+#index #gnavi ul #gnavi01 a {
+	background-position: center bottom;
+}
+
+#kv {
+	width: 960px;
+	margin: 0 auto 20px auto;
+}
+
+#secIndex01 {
+	width: 950px;
+	margin: 0 auto 20px auto;
+	padding: 4px;
+	font-size: 11px;
+	border: 1px solid #CCCCCC;
+}
+
+#secIndex01 p {
+	margin: 0;
+}
+
+#secIndex01 .alignleft {
+	margin: 25px 0 0 25px;
+}
+
+#ul_index01 {
+	margin-right: -20px;
+}
+
+#ul_index01 li {
+	width: 300px;
+	margin: 0 20px 30px 0;
+	float: left;
+}
+
+#ul_index01 li p {
+	margin: 0;
+	padding: 8px 0 9px 0;
+	font-weight: bold;
+	border-bottom: 1px dashed #CCCCCC;
+}
+
+#ul_index01 li p.movie {
+	padding: 3px;
+	background: #D92F2F;
+	border-bottom: none;
+}
+
+.ul_pager {
+	text-align: center;
+}
+
+.ul_pager li {
+	margin: 0 5px 0 5px;
+	display: inline;
+	line-height: 30px;
+}
+
+.ul_pager li span {
+	width: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	display: inline-block;
+	background-image: url(../images/common/bg_pager01.gif);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.ul_pager li a {
+	width: 30px;
+	height: 30px;
+	color: #FFFFFF;
+    font-weight: bold;
+	text-decoration: none;
+    display: inline-block;
+	background-image: url(../images/common/bg_pager01.gif);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.ul_pager li a:hover {
+	background-position: center bottom;
+}
+
+.ul_pager li.back a,
+.ul_pager li.next a {
+	width: auto;
+	background-image: none;
+}
+
+/* 基本理念
+----------------------------------------------------------*/
+#principle #gnavi ul #gnavi02 a {
+	background-position: center bottom;
+}
+
+#principle #container {
+	font-size: 14px;
+}
+
+#secPrinciple01 {
+	width: 840px;
+	margin: 0 auto 40px auto;
+	text-align: center;
+}
+
+#tbl_principle01 {
+	font-size: 16px;
+}
+
+/* メンバー紹介
+----------------------------------------------------------*/
+#member #gnavi ul #gnavi03 a {
+	background-position: center bottom;
+}
+
+#ul_member01 li {
+	width: 213px;
+	float: left;
+	margin: 0 15px 30px 15px;
+}
+
+#ul_member01 li p {
+	margin-bottom: 8px;
+}
+
+#ul_member01 li dl {
+	margin-bottom: 8px;
+}
+
+#ul_member01 li dl dt {
+	padding: 0.5em 0 0.5em 0;
+	float: left;
+	clear: both;
+	color: #D92F2F;
+}
+
+#ul_member01 li dl dd {
+	padding: 0.5em 0 0.5em 3em;
+	border-bottom: 1px dashed #D92F2F;
+}
+
+.secMember01 {
+	padding: 0 15px 0 15px;
+}
+
+.secMember01 .photo {
+	width: 213px;
+	float: left;
+}
+
+.secMember01 .profile {
+	width: 427px;
+	padding: 9px 19px;
+	float: right;
+	border: 1px solid #D92F2F;
+}
+
+.secMember01 .profile dl dt {
+	float: left;
+	clear: both;
+	color: #D92F2F;
+}
+
+.secMember01 .profile dl dd {
+	margin: 1em 0 1em 3em;
+}
+
+.secMember01 .comment p {
+	margin-left: 30px;
+}
+
+/* DECOプロジェクト
+----------------------------------------------------------*/
+#project #gnavi ul #gnavi04 a {
+	background-position: center bottom;
+}
+
+#ul_project01 li {
+	margin-right: 1em;
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.h3_project01 {
+	margin-bottom: 20px;
+	color: #D92F2F;
+	border-bottom: 1px solid #D92F2F;
+}
+
+.ul_project02 {
+	margin-right: -20px;
+}
+
+.ul_project02 li {
+	width: 167px;
+	margin: 0 20px 30px 0;
+	float: left;
+}
+
+.dl_project01 {
+	line-height: 2;
+}
+
+.dl_project01 dt {
+	float: left;
+	clear: both;
+}
+
+.dl_project01 dd {
+	padding-left: 4em;
+}
+
+.h3_project01 {
+	padding-left: 30px;
+	border-bottom: none;
+	background-image: url(../images/project/bg_h3.gif);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+/* DECOムービー
+----------------------------------------------------------*/
+#movie #gnavi ul #gnavi05 a {
+	background-position: center bottom;
+}
+
+#ul_movie01 li {
+	width: 325px;
+	margin: 0 20px 30px 20px;
+	float: left;
+}
+
+#ul_movie01 li p {
+	margin-bottom: 10px;
+}
+
+#ul_movie01 li .comment {
+	padding: 10px 0;
+	border-top: 1px solid #D92F2F;
+	border-bottom: 1px solid #D92F2F;
+}
+
+/* DECOお問い合わせ
+----------------------------------------------------------*/
+#contact #gnavi #gnavi00 ul a {
+	background-position: center bottom;
+}
+table.mainTb th { background-color:#d92f2f; padding:10px; text-align:right; color:#ffffff; vertical-align:text-top; width:150px;}
+table.mainTb td { padding:10px; text-align:left; width:550px;}
+table.mainTb { font-size:12px; margin:20px 0 20px 0; clear:both;}
+#contact .contactBtn {
+	width:100%;
+	text-align:center;
+}
+#contact .contactSubttl {
+	width:100%;
+	margin:0 0 10px 0;
+}
+
+#map_canvas { margin-bottom:20px;}
+input, textarea { padding:5px; margin-left:5px; margin-right:5px; }
